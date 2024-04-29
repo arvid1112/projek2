@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;;
+}
+
+html, body {
+    min-height: 100%;
+
+}
+
+body {
+    margin: 0;
+
+}
+
+header {
+    background-image: url(batman11.png);
+    height: 100vh;
+}
+
+nav {
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    list-style: none; 
+    padding-left: 15%;
+    justify-content: space-between;
+    padding-right: 15%;
+}
+
+.nav__heading {
+
+}
+
+.nav__icon{
+    height: 5vw;
+    width: 5vw;
+}
+
+.header__link {
+    color: #fff;   
+    background-color: transparent;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 1em;
+    height: 3vw;
+    width: 10vw;
+    text-align: center;
+    margin-top: auto;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 600px;
+    text-align: center;
+}
+
+main{
+
+}
+
+.main__text{
+    background-color: #535353;
+    margin-top: 0;
+}
+
+.main__h1{
+    padding-left: 20%;
+    color: #fff;
+}
+
+.main__p{
+    color: #fff;
+    font-size: 2em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.main__ngt{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    background-color: blue;
+    align-items: center;
+    padding-left: 20em;
+}
+
+.main__cards{
+    border-color: red;
+    border-style: solid;
+    width: fit-content;
+    height: 30em;
+}
+
+.main__card__img{
+    justify-content: center;
+    text-align: center;
+}
